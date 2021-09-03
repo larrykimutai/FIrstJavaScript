@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  <!--the other is ASCII(not as extensive as UTF-8)-->
+    <title>JavaScript Tutorial</title>
+</head>
+<body>
+
+<script>
+    window.document.write("<h1>this is my first javascript</h1>");
+    alert("Testing");
+</script>
+
+<script>
+    let popup = confirm("press a button");
+    if(popup === true) document.write("You clicked ok"); //checks datatype as well (===) //== does not check datatype
+    else window.document.write("You clicked Cancel");
+</script>
+
+<script>
+    let name = prompt("Enter name", "Name");
+    window.document.write("Thank " + name);
+</script>
+
+<button type="button" onclick="alert('Testing!')">Click</button>
+
+</body>
+</html>
